@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.nav{
+    background-color: #ACC18A !important;
+}
+.navbar{
+    background-color: #ACC18A !important;
+}
+body{
+    background-color: #DAFEB7;
+}
