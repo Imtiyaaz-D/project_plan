@@ -9,6 +9,88 @@
 .navbar{
     background-color: #ACC18A !important;
 }
-body{
+.body{
+    color: #ACC18A;
+    background-color: #DAFEB7 !important;
+}
+.profile{
     background-color: #DAFEB7;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+}
+footer{
+    height: 15vh;
+    background-color: #ACC18A;
+   
+}
+@media(max-height:700px){
+    footer{
+        position:static;
+    }
+    header{
+        padding-top:30px;
+    }
+}
+/*.footer-distributed{
+    background-color: #DAFEB7;
+    box-sizing: border-box;
+    widows:100%;
+    text-align:center;
+    font:bold 16px san-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}*/
+
+/*Contact page/*
+
+/*fieldset and legend */
+fieldset {
+    margin:  2em 0;
+    padding: 1em 2em;
+    border: solid 1px #ACC18A;
+    border-radius: 6px;
+    min-width:200px;
+}
+/* labels*/
+label{
+    display: block;
+    margin-top: 1em;
+}
+label:first-of-type{
+    margin-top: 0;
+}
+/*Inputs and text area */
+input{
+    padding:.5em;
+    border: solid 1px #ACC18A;
+}
+input[type="email"], input[type="text"]{
+    width:15em
+}
+textarea{
+    min-height:8em;
+    min-width: 100%;
+    padding:.5em;
+    border:solid 1px #ACC18A;
+}
+input[type="submit"]{
+    padding: .5em 1em;
+    border-radius: 6px;
+    background-color: #ACC18A;
+    color:#ACC18A;
+    font-size: .8em;
+}
+/*media queries*/
+@media (min-width:300px){
+    fieldset{
+        width:40%;
+        min-width:250px;
+    }
+    .label{
+        display:inline-block;
+        padding-top: .5em;
+        margin-top: 0;
+        margin-right:.5em;
+    }
 }
