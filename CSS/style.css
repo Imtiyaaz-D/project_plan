@@ -30,7 +30,7 @@ footer{
     background-color: #ACC18A;
    
 }
-@media(max-height:700px){
+@media (max-height:700px){
     footer{
         position:static;
     }
