@@ -12,6 +12,7 @@
 }
 /*home page*/
 .body{
+    text-emphasis-color:black ;
     color: #ACC18A!important;
     background-color: #DAFEB7 !important;
 }
@@ -173,4 +174,14 @@ p{
   }
   ::-webkit-scrollbar{
     display: none;
+}
+/*projects page*/
+.project3{
+    padding-top: 15px;
+    padding-bottom: 150px;
+}
+@media screen and (max-width: 700px) {
+    .project3{
+        flex-direction: column;
+    }
 }
